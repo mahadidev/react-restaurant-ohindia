@@ -7,10 +7,10 @@ import { SocialMediaData } from "../../Data/SiteBasicData";
 // Import StyleSheet
 import "./SocialMedia.css";
 
-function SocialMedia() {
+function SocialMedia({ className }) {
   return (
     <>
-      <div className={"social__media"}>
+      <div className={`social__media ${className}`}>
         {SocialMediaData && (
           <>
             <a className={"social__media__item fab fa-facebook-f"}></a>

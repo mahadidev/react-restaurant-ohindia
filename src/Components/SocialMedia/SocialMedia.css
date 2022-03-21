@@ -6,10 +6,15 @@
 }
 
 .social__media__item {
-  background: white;
+  background: var(--white-color);
   border-radius: 0.2rem;
   cursor: pointer;
   padding: 0.8rem;
   margin: 0.5rem;
   font-size: 1.2srem;
+  transition: 0.2s ease;
+}
+
+.social__media__item:hover {
+  opacity: 0.8;
 }

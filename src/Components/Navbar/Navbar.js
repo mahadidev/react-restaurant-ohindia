@@ -5,11 +5,12 @@ import { Link } from "react-router-dom";
 
 // Import Compoents
 import Button from "../Button";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 // Import StyleSheet
 import "./Navbar.css";
 
-function Navbar({ slideLogo, mainLogo, button, menu }) {
+function Navbar({ slideLogo, button, menu }) {
   // Devide Menu
   const menuLenght = menu.length;
   const menuDevide = Math.floor(menuLenght / 2);
@@ -57,24 +58,7 @@ function Navbar({ slideLogo, mainLogo, button, menu }) {
                   className="hamburger__logo"
                   src={"./images/logo__slide__white.png"}
                 />
-                <div className={"hamburger__social__media"}>
-                  <Link
-                    className={
-                      "hamburger__social__media__item fab fa-facebook-f"
-                    }
-                    to={"/"}
-                  />
-                  <Link
-                    className={
-                      "hamburger__social__media__item fab fa-instagram"
-                    }
-                    to={"/"}
-                  />
-                  <Link
-                    className={"hamburger__social__media__item fab fa-twitter"}
-                    to={"/"}
-                  />
-                </div>
+                <SocialMedia className={"hamburger__social__media"} />
               </div>
             </div>
             {/* !Hamburger */}

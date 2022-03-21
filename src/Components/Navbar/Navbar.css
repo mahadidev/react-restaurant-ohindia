@@ -216,17 +216,7 @@
   }
 
   .hamburger__social__media {
-    display: flex;
-    justify-content: center;
-  }
-
-  .hamburger__social__media__item {
-    width: max-content;
-    background: var(--white-color);
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
+    margin: 1rem auto 0 auto;
   }
 
   .hamburger__right__btn {
