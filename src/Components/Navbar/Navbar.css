@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  padding: 1.8rem 4rem;
+  padding: 1rem 4rem;
   box-sizing: border-box;
   background-color: var(--primary-color);
   position: fixed;
@@ -38,6 +38,22 @@
   width: 100%;
   max-width: 120px;
   margin: 0px 1.5rem;
+}
+
+.navbar__logo__text {
+  width: 100%;
+  max-width: 120px;
+  color: var(--white-color);
+  font-size: 3rem;
+  line-height: 0.9;
+  text-align: center;
+  font-family: logo__font;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar__logo__text {
+    font-size: 2rem;
+  }
 }
 
 .navbar__menu {
@@ -143,7 +159,7 @@
     width: auto;
   }
 
-  .navbar__right__btn {
+  .navbar__btn {
     display: none;
   }
 

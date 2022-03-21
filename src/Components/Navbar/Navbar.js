@@ -96,7 +96,10 @@ function Navbar({ slideLogo, mainLogo, button, menu }) {
                 }
               })}
             </ul>
-            <LazyLoadImage className={"navbar__logo"} src={mainLogo} />
+            {/* <LazyLoadImage className={"navbar__logo"} src={mainLogo} /> */}
+            <Link className={"navbar__logo__text"} to={"/"}>
+              Oh India
+            </Link>
             <ul className={"navbar__menu navbar__menu__right"}>
               {menu.map((menuItem) => {
                 // right menu
@@ -119,7 +122,12 @@ function Navbar({ slideLogo, mainLogo, button, menu }) {
               className={`hamburger__right__btn hamburger__icon ${button.icon}`}
               to={button.url}
             />
-            <Button type={"link"} to={"./"} color={"btn__white__outline"}>
+            <Button
+              className={"navbar__btn"}
+              type={"link"}
+              to={"./"}
+              color={"btn__white__outline"}
+            >
               BOOK NOW
             </Button>
           </div>

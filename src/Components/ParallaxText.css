@@ -13,6 +13,19 @@
   font-weight: 100;
 }
 
+@media only screen and (max-width: 1080px) {
+  .parallax__large {
+    font-size: 20rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax__large {
+    font-size: 15rem;
+    font-weight: 100;
+  }
+}
+
 .parallax__gray {
   color: #efefef;
 }

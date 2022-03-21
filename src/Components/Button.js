@@ -8,7 +8,7 @@ import "./Button.css";
 const BUTTON_COLOR = ["btn__primary", "btn__white__outline"];
 const BUTTON_SIZE = ["", "btn__small", "btn__large"];
 
-function Button({ children, color, size, type, to, onClick }) {
+function Button({ children, className, color, size, type, to, onClick }) {
   const checkBtnColor = BUTTON_COLOR.includes(color) ? color : BUTTON_COLOR[0];
 
   const checkBtnSize = BUTTON_SIZE.includes(size) ? size : BUTTON_SIZE[0];
@@ -17,7 +17,9 @@ function Button({ children, color, size, type, to, onClick }) {
     return (
       <>
         <button
-          className={`btn ${checkBtnColor} ${checkBtnSize}`}
+          className={`btn ${checkBtnColor} ${checkBtnSize} ${
+            className && className
+          }`}
           type={"button"}
           onClick={onClick}
         >
@@ -31,7 +33,9 @@ function Button({ children, color, size, type, to, onClick }) {
     return (
       <>
         <Link
-          className={`btn ${checkBtnColor} ${checkBtnSize}`}
+          className={`btn ${checkBtnColor} ${checkBtnSize} ${
+            className && className
+          }`}
           type={"button"}
           to={to}
         >

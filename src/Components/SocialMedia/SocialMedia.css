@@ -6,14 +6,10 @@
 }
 
 .social__media__item {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: white;
   border-radius: 0.2rem;
   cursor: pointer;
+  padding: 0.8rem;
   margin: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2srem;
 }

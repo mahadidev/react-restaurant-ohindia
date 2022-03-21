@@ -27,16 +27,37 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .menu__slide {
+    flex-direction: column;
+  }
+}
+
 .menu__slide__img__wrapper {
   width: 70%;
   height: 600px;
   overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+  .menu__slide__img__wrapper {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}
+
 .menu__slide__img {
   height: 100%;
   display: block;
   margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  .menu__slide__img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .menu__slide__text__wrapper {

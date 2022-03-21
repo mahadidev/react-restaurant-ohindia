@@ -28,6 +28,12 @@ section {
   font-weight: 300;
 }
 
+@media only screen and (max-width: 768px) {
+  .section__title {
+    display: none;
+  }
+}
+
 .section__content {
   width: 100%;
 }
@@ -39,11 +45,38 @@ section {
   margin: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  .row:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .col {
   width: 50%;
   padding: 0px 1rem;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .col {
+    width: 100%;
+    padding: 0;
+  }
+
+  .col {
+    order: 2;
+  }
+
+  .col__img {
+    order: 1;
+  }
 }
 
 .section__img__wrapper {

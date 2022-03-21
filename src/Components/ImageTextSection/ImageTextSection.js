@@ -31,7 +31,7 @@ function ImageTextSection({}) {
           <h1 className={"section__title"}>DELECTABLE</h1>
           <div className={"section__content"}>
             <div className={"row"}>
-              <div className={"col"}>
+              <div className={"col col__img"}>
                 <div className={"section__img__wrapper"}>
                   <LazyLoadImage
                     className={"section__img"}
@@ -60,7 +60,7 @@ function ImageTextSection({}) {
                   </p>
                 </div>
               </div>
-              <div className={"col"}>
+              <div className={"col col__img"}>
                 <div className={"section__img__wrapper"}>
                   <LazyLoadImage
                     className={"section__img"}
