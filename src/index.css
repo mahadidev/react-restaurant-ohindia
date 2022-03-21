@@ -1,0 +1,41 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Roboto:wght@300&family=Sriracha&display=swap");
+/* --Google Fonts */
+
+/* Custom Fonts */
+@font-face {
+  font-family: title__font;
+  src: url(./Fonts/BrownhillScript.woff);
+}
+
+@font-face {
+  font-family: logo__font;
+  src: url(./Fonts/logo__font.woff);
+}
+/* --Custom Fonts */
+
+:root {
+  --primary-color: #361727;
+  --secondary-color: #ffc600;
+  --black-color: #4e4d52;
+  --white-color: #fff;
+  --gray-color: #efefef;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  overflow: auto !important;
+  height: unset !important;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}

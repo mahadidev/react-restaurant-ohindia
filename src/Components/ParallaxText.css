@@ -1,0 +1,26 @@
+.parallax__text {
+  width: 100%;
+  text-align: center;
+  font-family: "title__font", sans-serif;
+  text-transform: lowercase;
+  z-index: -1;
+  font-size: 200px;
+  font-weight: 100;
+}
+
+.parallax__large {
+  font-size: 500px;
+  font-weight: 100;
+}
+
+.parallax__gray {
+  color: #efefef;
+}
+
+.parallax__primary {
+  color: var(--primary-color);
+}
+
+.parallax__white {
+  color: var(--white-color);
+}

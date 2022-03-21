@@ -1,0 +1,36 @@
+#menu__slider:before,
+#menu__slider:after {
+  content: "";
+  background: white;
+  width: 1px;
+  height: 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+#menu__slider:before {
+  top: 2rem;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#menu__slider:after {
+  bottom: 2rem;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.section__bg__text {
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  text-align: center;
+  font-family: "title__font", sans-serif;
+  font-size: 500px;
+  font-weight: 100;
+  text-transform: lowercase;
+  color: #efefef;
+  z-index: -1;
+}
