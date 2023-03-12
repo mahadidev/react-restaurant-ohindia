@@ -36,7 +36,7 @@ function ImageTextSection({}) {
                   <LazyLoadImage
                     className={"section__img"}
                     ref={flipImageEffect.ref}
-                    src={"../images/home/intro__1.png"}
+                    src={"../images/home/cooking.png"}
                   />
                 </div>
               </div>
@@ -64,7 +64,7 @@ function ImageTextSection({}) {
                 <div className={"section__img__wrapper"}>
                   <LazyLoadImage
                     className={"section__img"}
-                    src={"../images/home/intro__2.png"}
+                    src={"../images/home/room.png"}
                   />
                 </div>
               </div>
