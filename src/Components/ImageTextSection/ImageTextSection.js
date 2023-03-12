@@ -33,11 +33,10 @@ function ImageTextSection({}) {
             <div className={"row"}>
               <div className={"col col__img"}>
                 <div className={"section__img__wrapper"}>
-                  <img
+                  <LazyLoadImage
                     className={"section__img"}
                     ref={flipImageEffect.ref}
-                    src={"../images/home/cooking.png"}
-                    alt="Cook "
+                    src={"./images/home/cooking.png"}
                   />
                 </div>
               </div>
@@ -63,10 +62,9 @@ function ImageTextSection({}) {
               </div>
               <div className={"col col__img"}>
                 <div className={"section__img__wrapper"}>
-                  <img
+                  <image
                     className={"section__img"}
-                    src={"../images/home/room.png"}
-                    alt="Room"
+                    src={"./images/home/room.png"}
                   />
                 </div>
               </div>
