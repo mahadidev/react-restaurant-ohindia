@@ -7,10 +7,11 @@ import HomePage from "./Pages/HomePage";
 
 // Import Components
 import Navbar from "./Components/Navbar/Navbar";
+import ComingSoon from "./Components/ComingSoon/ComingSoon";
+import Footer from "./Components/Footer/Footer";
 
 // Import Data
 import { NavigationData } from "./Data/SiteBasicData";
-import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Navbar {...NavigationData} />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<ComingSoon />} />
         </Routes>
         <Footer />
       </ParallaxProvider>
