@@ -36,7 +36,7 @@ function ImageTextSection({}) {
                   <img
                     className={"section__img"}
                     ref={flipImageEffect.ref}
-                    src={"./images/home/cooking.png"}
+                    src={"./images/Home/cooking.png"}
                     alt="Cook"
                   />
                 </div>
@@ -65,7 +65,7 @@ function ImageTextSection({}) {
                 <div className={"section__img__wrapper"}>
                   <img
                     className={"section__img"}
-                    src={"./images/home/room.png"}
+                    src={"./images/Home/room.png"}
                     alt="Room"
                   />
                 </div>
