@@ -13,5 +13,13 @@
 .footer__copyright {
   color: var(--white-color);
   font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.developed__text {
+  color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  opacity: 0.9;
+  text-decoration: underline;
 }

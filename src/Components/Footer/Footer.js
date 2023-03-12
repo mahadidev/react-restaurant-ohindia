@@ -13,8 +13,18 @@ function Footer() {
     <>
       <footer id={"footer"}>
         <Container className={"footer__container"}>
-          <p className={"footer__copyright"}>All rights reserved.</p>
-          <SocialMedia />
+          <p className={"footer__copyright"}>© 2021 All Rights Reserved</p>
+          <p className={"footer__copyright"}>
+            developed by{" "}
+            <a
+              className="developed__text"
+              href="https://mahadi.dev"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              MAHADI DEV
+            </a>
+          </p>
         </Container>
       </footer>
     </>
